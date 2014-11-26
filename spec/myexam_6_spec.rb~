@@ -48,10 +48,6 @@ describe SeleccionSimple do
 			expect(@exa1.examInvertido).to eq("true")
 		end
 
-		it "Mostrar interfaz Invertida" do
-			expect(@exam.to_s).to eq(@lista.mostrarI)
-		end
-
 
 	end
 end

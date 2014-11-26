@@ -151,14 +151,6 @@ class Examen
 
 	def to_s
 		@value.reverse_each {|x| puts "#{x}\n"}
-=begin		aux = @value.inicio
-		i=1
-		while i<6 do	
-				puts "#{i} Pregunta: \n #{aux.value}\n"
-				aux = aux.next
-				i+=1
-		end
-=end
 	end
 
 	def mostrar(i)
@@ -227,4 +219,5 @@ end
 
 		exa = Examen.new(@lista)
 
-		exa.to_s	
+		exa.to_s
+		#exa.examInvertido	

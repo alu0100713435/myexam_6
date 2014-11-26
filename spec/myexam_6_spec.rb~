@@ -1,6 +1,7 @@
 require 'lib/myexam_6/myexam_6.rb'
 require 'lib/myexam_6/myexam_6.1.rb'
 require 'lib/myexam_6/myexam_6.2.rb'
+require 'spec_helper.rb'
 
 describe SeleccionSimple do
 

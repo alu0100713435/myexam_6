@@ -11,7 +11,7 @@ class Examen
 	end
 
 	def to_s
-		@value.reverse_each {|x| puts "#{x}"}
+		@value.reverse_each {|x| "#{x}"}
 =begin
 		aux = @value.inicio
 		i=1

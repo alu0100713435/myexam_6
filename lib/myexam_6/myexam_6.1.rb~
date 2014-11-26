@@ -83,7 +83,7 @@ class Lista
 		i=0
 		aux = @final
 		while i<5 do
-			puts "#{aux.value}"
+			"#{aux.value}"
 			aux = aux.prev
 			i+=1
 		end

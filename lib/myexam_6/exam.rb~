@@ -41,8 +41,6 @@ Node = Struct.new(:value, :next, :prev)
 
 class Lista
 
-	include Enumerable
-
 	attr_accessor :inicio, :final
 
 	def initialize inicio

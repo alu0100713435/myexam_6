@@ -1,4 +1,4 @@
-
+require 'bundler/gem_tasks'
 task :default => :spec
 
 desc "Ejecutar las espectativas de la clase myexam_2"
